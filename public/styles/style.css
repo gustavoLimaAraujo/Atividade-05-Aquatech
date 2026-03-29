@@ -104,3 +104,62 @@
 .footer .container h4{
     margin-top: 2rem;
 }
+
+/* Estilizando o login.html e cadastro.html */
+
+/* Estlizando fundo */
+.login .container {
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    height: 740px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilizando o card */
+.login .container .card{
+    background-color: #E5E5E5;
+    text-align: center;
+    border-radius: 20px;
+    width: 50%;
+    height: fit-content;
+    color: #F50E5F;
+}
+.login .container .card h2 {
+    font-size: 2.5rem;
+    margin: 30px 0;
+}
+.login .container .card .formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.login .container .card .formulario .campo{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 15%;
+}
+.login .container .card .formulario span{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.login .container .card .formulario input{
+    text-align: center;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+    border: 2px solid #32B9CD;
+}
+.login .container .card .formulario .botao{
+    background-color: #F50E5F;
+    width: 150px;
+    height: 2.5rem;
+    border: none;
+    border-radius: 10px;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin: 20px auto;
+}
